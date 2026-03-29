@@ -1,0 +1,24 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Node
+node_modules/
+
+# Build and temp
+dist/
+build/
+tmp/
+temp/
+

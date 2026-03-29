@@ -2,21 +2,6 @@
 
 Read table structure first, then suggest reliable Excel/WPS formulas and cleanup workflows.
 
-一个面向 Excel 和 WPS 的表格诊断与公式建议项目，重点处理脏数据清洗、查找匹配、汇总统计和兼容写法。
-
-## 简介
-
-很多表格问题并不是“缺一个公式”，而是还没先判断清楚这张表真正需要做什么。
-
-这个项目更关注一个更实用的流程：
-
-- 先看表头和样例数据
-- 再判断有哪些明显的数据问题
-- 然后给出下一步处理建议
-- 最后再补上更稳妥的 Excel/WPS 公式或替代做法
-
-它主要面向日常办公表格场景，例如脏数据清洗、两表匹配、汇总统计，以及常见公式问题排查。
-
 ## Overview
 
 When working with spreadsheets, the hard part is often not writing a formula, but figuring out what the table needs first.
@@ -72,15 +57,6 @@ This project is built around that step.
 - `docs/quick-start.md`: short orientation for first-time visitors
 - `docs/use-cases.md`: use-case overview
 - `docs/roadmap.md`: project direction
-
-## 常见场景
-
-- 先看表，再判断应该先清洗、匹配还是汇总
-- 给出兼容 WPS 的公式写法
-- 按编号、姓名或其他字段匹配两张表
-- 识别空值、重复值和格式不一致的问题
-- 建议部门、销售、状态类表格的统计方式
-- 排查常见公式报错
 
 ## Examples
 

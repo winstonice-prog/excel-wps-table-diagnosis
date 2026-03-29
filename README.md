@@ -179,6 +179,19 @@ Expected output:
 - multi-table merge and reconciliation support
 - report-oriented table processing suggestions
 
+## Known Problems
+
+- compatibility behavior still needs more real-world verification across different Excel and WPS versions
+- the current examples are small and clean, and still need more messy office-table cases
+- some workflows are easier to describe than to standardize, especially when the source table structure is inconsistent
+
+## Planned Improvements
+
+- add more examples based on common office tables
+- document safer fallback workflows for older spreadsheet environments
+- improve guidance for messy date, text, and lookup columns
+- make the workflow notes easier to scan for first-time users
+
 ## Current Status
 
 This repository is currently in the first public draft stage. The main focus is to make the core positioning, examples, and workflow clear before expanding the project further.

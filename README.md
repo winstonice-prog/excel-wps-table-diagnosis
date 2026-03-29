@@ -1,6 +1,6 @@
 # excel-wps-table-diagnosis
 
-Read table structure first, then suggest reliable Excel/WPS formulas and cleanup workflows.
+Read table structure first, then suggest practical Excel/WPS formulas and cleanup workflows.
 
 先看表结构，再给出更稳妥的 Excel/WPS 处理建议。
 
@@ -20,7 +20,7 @@ It is mainly aimed at common office spreadsheet tasks such as cleaning messy col
 
 ## 中文说明
 
-这个项目更像一个偏实用的表格工作流草案，而不是函数大全。
+这个项目更像一个偏实用的表格处理说明书，而不是函数大全。
 
 它主要做三件事：
 
@@ -35,7 +35,7 @@ It is mainly aimed at common office spreadsheet tasks such as cleaning messy col
 Start with these files:
 
 - `README.md`
-- `SKILL.md`
+- `WORKFLOW.md`
 - `examples/README.md`
 - `docs/quick-start.md`
 
@@ -51,7 +51,7 @@ Use the current draft in a simple way:
 
 1. 贴出表头和几行样例数据
 2. 说明你要做什么，或者直接说“先帮我看这张表”
-3. 优先让它给出兼容 WPS 和 Excel 的稳妥方案
+3. 优先采用兼容 WPS 和 Excel 的稳妥方案
 
 适合的提问方式：
 
@@ -93,7 +93,7 @@ This project is built around that step.
 
 ## Project Files
 
-- `SKILL.md`: the current skill draft and operating rules
+- `WORKFLOW.md`: the current workflow notes and handling rules
 - `examples/table-diagnosis.md`: sample diagnosis workflow
 - `examples/sheet-match.md`: sample sheet matching workflow
 - `examples/text-cleanup.md`: sample text cleanup workflow
@@ -187,7 +187,7 @@ This repository is currently in the first public draft stage. The main focus is 
 
 Recommended repository description:
 
-`Read table structure first, then suggest reliable Excel/WPS formulas and cleanup workflows.`
+`Read table structure first, then suggest practical Excel/WPS formulas and cleanup workflows.`
 
 Recommended topics:
 

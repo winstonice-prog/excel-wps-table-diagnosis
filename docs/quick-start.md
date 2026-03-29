@@ -14,7 +14,7 @@ This project helps with a practical spreadsheet workflow:
 Start with these files:
 
 - `README.md` for the project overview
-- `SKILL.md` for the operating rules
+- `WORKFLOW.md` for the operating rules
 - `examples/` for sample input and expected response shapes
 
 ## Recommended First Scenarios
@@ -39,4 +39,3 @@ It does not currently aim to cover:
 - chart generation
 - visual styling
 - full office automation
-

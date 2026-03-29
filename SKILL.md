@@ -34,12 +34,18 @@ Use this skill when a spreadsheet task should start with the table itself, not w
 - Mention compatibility notes for Excel and WPS.
 - Provide a fallback when the preferred formula may not work everywhere.
 
+5. Pause before execution.
+
+- If the next step would directly modify a workbook, add helper columns, rewrite formulas, or otherwise move from diagnosis into execution, ask for confirmation first.
+- Once the user agrees, continue with the concrete formulas, helper columns, or execution steps instead of repeating the analysis.
+
 ## Priorities
 
 - Diagnose before suggesting formulas.
 - Prefer maintainability over cleverness.
 - Treat compatibility as an early constraint.
 - Do not force everything into one formula.
+- Do not make direct spreadsheet changes without user confirmation.
 
 ## Output Shape
 
@@ -54,6 +60,11 @@ Keep the response close to this shape:
 
 - what to do first
 - which formula or method to use
+
+### Execution
+
+- what can be done immediately after approval
+- which formulas, helper columns, or spreadsheet steps should be applied
 
 ### Compatibility
 

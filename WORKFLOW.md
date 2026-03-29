@@ -35,6 +35,11 @@ The point here is not to prove that everything can be done in one formula. It us
 - Mention compatibility notes for Excel and WPS.
 - Provide a fallback approach if the preferred formula may not work everywhere.
 
+5. Get approval before doing the work
+
+- If the next step would directly modify a workbook, add helper columns, rewrite formulas, or otherwise move from diagnosis into execution, pause and ask for confirmation.
+- After the user agrees, move straight into the concrete work instead of restating the same analysis.
+
 ## What This Repository Should Handle Well
 
 - messy office tables built from headers and sample rows
@@ -56,6 +61,8 @@ In short, this repository should be most useful in the boring, high-frequency sp
 
 If a formula starts looking like a puzzle, it is usually time to step back and use helper columns.
 
+When the structure is clear enough, the output should be ready to turn into direct work as soon as the user says yes.
+
 ## Compatibility Rules
 
 - Treat Excel and WPS compatibility as an early constraint.
@@ -76,6 +83,11 @@ Use a structure close to this:
 
 - what to do first
 - which formula or method to use
+
+### Execution
+
+- what will be applied after approval
+- which formulas, helper columns, or spreadsheet steps should be used
 
 ### Compatibility
 

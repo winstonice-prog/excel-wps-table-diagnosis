@@ -1,14 +1,16 @@
 # Spreadsheet Table Diagnosis Workflow
 
-This document records the main handling rules used in this repository.
+This file is a compact note on how the repository is meant to handle spreadsheet problems.
 
-The goal is simple: look at the table first, then choose a practical way to clean, match, summarize, or troubleshoot it in Excel and WPS.
+The basic idea is simple: look at the table first, then choose a practical way to clean, match, summarize, or troubleshoot it in Excel and WPS.
+
+That sounds obvious, but a surprising amount of spreadsheet pain starts right after people skip that step.
 
 ## Core Workflow
 
 1. Inspect the input
 
-- Identify whether the input contains headers, sample rows, CSV content, or a direct task description.
+- Check whether the input contains headers, sample rows, CSV content, or just a direct task description.
 - If the table structure is still unclear, ask for the smallest amount of extra context needed.
 
 2. Diagnose the table
@@ -22,6 +24,8 @@ The goal is simple: look at the table first, then choose a practical way to clea
 - Prefer Excel and WPS compatible approaches over newer functions with weaker compatibility.
 - Prefer helper columns when a single long formula would be fragile.
 - Recommend built-in spreadsheet tools when they are a better fit than formulas.
+
+The point here is not to prove that everything can be done in one formula. It usually can. That does not mean it should.
 
 4. Present a clear recommendation
 
@@ -40,6 +44,8 @@ The goal is simple: look at the table first, then choose a practical way to clea
 - common spreadsheet formula mistakes
 - choosing between formulas, helper columns, split-text, filters, or pivot tables
 
+In short, this repository should be most useful in the boring, high-frequency spreadsheet situations that people actually run into at work.
+
 ## Formula Selection Rules
 
 - Start with the simplest workable formula.
@@ -47,6 +53,8 @@ The goal is simple: look at the table first, then choose a practical way to clea
 - Prefer `INDEX + MATCH` over `XLOOKUP` when broad compatibility matters.
 - Prefer step-by-step text cleanup over nested formulas when readability drops.
 - Do not use advanced formulas only to appear clever.
+
+If a formula starts looking like a puzzle, it is usually time to step back and use helper columns.
 
 ## Compatibility Rules
 
@@ -80,8 +88,12 @@ Use a structure close to this:
 - where to place the formula
 - whether helper columns or built-in tools would be easier
 
+The response should feel like a practical recommendation, not a function glossary.
+
 ## Boundaries
 
 - Focus on practical spreadsheet handling, not full office automation.
 - Do not prioritize styling, chart design, or visual formatting.
 - Keep the project centered on diagnosis, cleanup, matching, and summarization.
+
+That means this repository is intentionally better at fixing awkward tables than making them look impressive.

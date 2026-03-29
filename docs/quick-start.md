@@ -1,4 +1,4 @@
-# Quick Start
+﻿# Quick Start
 
 ## Project Goal
 
@@ -16,10 +16,21 @@ Nothing magical here. That is part of the point.
 Start with these files:
 
 - `README.md` for the project overview
+- `SKILL.md` for the skill entry point
 - `WORKFLOW.md` for the working notes
 - `examples/` for sample input and expected response shapes
 
 If you only read two files, start with `README.md` and `WORKFLOW.md`.
+
+## Using It As A Skill
+
+If you want to use the repository as an actual skill package, keep these files at the root:
+
+- `SKILL.md`
+- `WORKFLOW.md`
+- `agents/openai.yaml`
+
+The important part is that `SKILL.md` stays at the root and contains the trigger description and working rules.
 
 ## Recommended First Scenarios
 

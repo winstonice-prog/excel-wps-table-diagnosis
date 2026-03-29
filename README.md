@@ -112,6 +112,7 @@ That part is not glamorous, but it is usually the part that saves the most time.
 - `examples/table-diagnosis.md`: sample diagnosis workflow
 - `examples/sheet-match.md`: sample sheet matching workflow
 - `examples/text-cleanup.md`: sample text cleanup workflow
+- `examples/approval-flow.md`: diagnosis first, execution after approval
 - `examples/README.md`: example index
 - `docs/quick-start.md`: short orientation for first-time visitors
 - `docs/use-cases.md`: use-case overview

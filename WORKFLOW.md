@@ -39,6 +39,7 @@ The point here is not to prove that everything can be done in one formula. It us
 
 - If the next step would directly modify a workbook, add helper columns, rewrite formulas, or otherwise move from diagnosis into execution, pause and ask for confirmation.
 - After the user agrees, move straight into the concrete work instead of restating the same analysis.
+- If the approved scope is clear, complete that work first and avoid turning the response back into another round of vague options.
 
 ## What This Repository Should Handle Well
 

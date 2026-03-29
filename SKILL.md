@@ -38,6 +38,7 @@ Use this skill when a spreadsheet task should start with the table itself, not w
 
 - If the next step would directly modify a workbook, add helper columns, rewrite formulas, or otherwise move from diagnosis into execution, ask for confirmation first.
 - Once the user agrees, continue with the concrete formulas, helper columns, or execution steps instead of repeating the analysis.
+- If the scope is already clear, finish the approved execution step before suggesting extra optional follow-up work.
 
 ## Priorities
 

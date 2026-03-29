@@ -2,6 +2,8 @@
 
 Read table structure first, then suggest reliable Excel/WPS formulas and cleanup workflows.
 
+先看表结构，再给出更稳妥的 Excel/WPS 处理建议。
+
 ## Overview
 
 When working with spreadsheets, the hard part is often not writing a formula, but figuring out what the table needs first.
@@ -15,6 +17,48 @@ This project focuses on a simple workflow:
 - provide simpler fallback approaches when needed
 
 It is mainly aimed at common office spreadsheet tasks such as cleaning messy columns, matching tables, summarizing data, and fixing common formula problems.
+
+## 中文说明
+
+这个项目更像一个偏实用的表格工作流草案，而不是函数大全。
+
+它主要做三件事：
+
+- 先看表头和样例数据，判断这张表适合先清洗、匹配还是汇总
+- 再给出更稳妥的 Excel/WPS 公式或辅助列方案
+- 避免一上来就堆很长的公式，优先选择更容易维护的方法
+
+如果一件事更适合用分列、筛选、透视表或辅助列来做，就不强行把所有步骤塞进一个公式里。
+
+## Quick Start
+
+Start with these files:
+
+- `README.md`
+- `SKILL.md`
+- `examples/README.md`
+- `docs/quick-start.md`
+
+Use the current draft in a simple way:
+
+1. Prepare table headers and a few sample rows.
+2. Describe the task in plain language.
+3. Ask for the safest Excel/WPS-friendly way to handle it.
+
+## 用法
+
+可以直接按下面这种方式使用：
+
+1. 贴出表头和几行样例数据
+2. 说明你要做什么，或者直接说“先帮我看这张表”
+3. 优先让它给出兼容 WPS 和 Excel 的稳妥方案
+
+适合的提问方式：
+
+- “先看一下这张表，告诉我应该先处理什么”
+- “这两张表按编号怎么匹配，WPS 里也能用”
+- “这列日期格式很乱，先怎么清洗比较稳”
+- “这个公式为什么会报错，有没有更稳的写法”
 
 ## What This Project Focuses On
 
@@ -57,6 +101,8 @@ This project is built around that step.
 - `docs/quick-start.md`: short orientation for first-time visitors
 - `docs/use-cases.md`: use-case overview
 - `docs/roadmap.md`: project direction
+- `CONTRIBUTING.md`: contribution notes
+- `CHANGELOG.md`: release history
 
 ## Examples
 
@@ -105,6 +151,12 @@ Expected output:
 - Consider Excel/WPS compatibility early
 - Use helper columns when they make the result more reliable
 - Do not force formulas when built-in spreadsheet tools are a better fit
+
+## What This Project Is Not
+
+- not a full office automation toolkit
+- not a chart or formatting generator
+- not a function encyclopedia with no table context
 
 ## Intended Users
 
